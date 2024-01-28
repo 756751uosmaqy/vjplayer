@@ -97,7 +97,7 @@ a:focus, a:hover {
 }
 .img-wrapper {
   padding-bottom: 67%;
-  background-image: url("../images/loading.gif");
+  background-image: url("https://cdn.jsdelivr.net/gh/756751uosmaqy/vjplayer@main/loading.gif");
 }
 .gap {
   margin-bottom: var(--theme-gap);
