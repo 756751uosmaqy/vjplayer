@@ -1,0 +1,55 @@
+.video-js .vjs-picture-in-picture-control { display: none; }
+
+video::-webkit-media-text-track-display-backdrop {
+background-color: rgba(0,0,0,0) !important;
+  transform: translateY(20%) !important;
+   font-size: 110%;
+   font-weight: bolder;
+    -webkit-text-stroke: 1px #000;
+ text-shadow: 1px 2px 3px #000!important;
+}  
+
+
+        /*.vjs-texttrack-settings {
+            display: none;
+        }*/
+        #my-video::cue {
+            background-color: #D3FFC0;
+            color: #FFC0CB;
+            outline-style: solid;
+            outline-color: #FF5D7A;
+        }
+
+        .vjs-text-track-display > div > div > div {
+            background: transparent !important;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            font-size: 1.4em;
+            text-shadow: rgb(0, 0, 0) -2px 0px 1px, rgb(0, 0, 0) 2px 0px 1px, rgb(0, 0, 0) 0px -2px 1px, rgb(0, 0, 0) 0px 2px 1px, rgb(0, 0, 0) -1px 1px 1px, rgb(0, 0, 0) 1px 1px 1px, rgb(0, 0, 0) 1px -1px 1px, rgb(0, 0, 0) 1px 1px 1px;
+        }
+
+
+        @media only screen and (max-width: 924px) {
+            .setpadd{
+                padding-right: .5rem;
+                padding-left: .5rem;
+            }
+        }
+        @media only screen and (max-width: 400px) {
+            .video-js .vjs-seek-button{
+                display: none;
+            }
+            .vjs-menu-button {
+                display: none;
+            }
+
+        }
+
+body{
+overflow: hidden;
+margin: 0px;
+}
+
+.vjs-poster {
+  background-size: cover !important;
+}
